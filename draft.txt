@@ -110,6 +110,11 @@ Methodology
  - Did not look at offer opened (not relevant to metric of "Behavioral change given an offer")
  - Channels (not separable at all -- alsmot all have at least 3 channels)
  
+ - Initially investigated bayesian analysis
+ - (But not suitable)
+ - Bayesian is useful to detect if there is an A, B, and event given a contiguous interval
+ - This exercise gives the event, challenge is to piece A and B together from different parts of the offer intervals
+ 
 Findings
  - Heuristics
  (describe most important)
