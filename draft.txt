@@ -134,10 +134,64 @@ Imrpovement
    - Vary one thing at a time
    - Contunuous range of rewards and difficulty in order to establish thresholds better
    - Make channels separable
+
+Discount
+Before channels:
+Transaction rate predictions
+R^2 score: 0.2130786929555456
+MSE: 1.5580508618931206e-05
+
+Average Value predictions
+R^2 score: 0.0749508327553936
+MSE: 629.2410697984262
+
+After channels:
+Transaction rate predictions
+R^2 score: 0.21334308173724392
+MSE: 1.5575273900217756e-05
+
+Average Value predictions
+R^2 score: 0.07541274856858449
+MSE: 628.9268633640647
    
+
     
  
-  
+BOFO before:
+Transaction rate predictions
+R^2 score: 0.232912984953061
+MSE: 2.267977673858029e-05
+
+Average Value predictions
+R^2 score: 0.06547205720920046
+MSE: 599.6560718157485
+
+Transaction rate predictions
+R^2 score: 0.2366931190695445
+MSE: 2.256801288894911e-05
+
+Average Value predictions
+R^2 score: 0.06528463587337097
+MSE: 599.7763339682983
+
+
+Info before
+Transaction rate predictions
+R^2 score: 0.11630661393103037
+MSE: 6.6885574823446e-05
+
+Average Value predictions
+R^2 score: 0.06069269263943
+MSE: 256.8749699174325
+
+After
+Transaction rate predictions
+R^2 score: 0.11615319456972972
+MSE: 6.689718693046345e-05
+
+Average Value predictions
+R^2 score: 0.061184560589129466
+MSE: 256.74045742743874
   
 
 
