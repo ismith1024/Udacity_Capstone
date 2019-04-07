@@ -78,6 +78,67 @@ Code is formatted neatly with comments and uses DRY principles. A README file is
 
 Best practices from software engineering and communication lessons are used to create a phenomenal end product that students can be proud to showcase!
 
+=======
+
+README
+
+=======
+
+Blog Post
+ 
+  - Made for Starbucks usign simulated data
+  - Goal is to describe and predict user behavior
+  - Will be done on using aggregate
+  - Will measure changes in user behavior, by demographic: with and without an offer
+  - Will measure changes in transaction rate and average transaction value
+  
+  
+  <Data Description>
+  
+  - Note that there is no causal relationship between receivign an offer, and making a transaction
+  - Data reflects this
+  - Data does not set up a causal chain of events where user gets offer, opens offer, and buys something or not 
+  - Want to measue A,B where A has an offerm and B does not 
+  
+Methodology
+
+ - (Describe data wrangling)
+ - Merged offer intervals for each user, then subtracted from experiment duration to establish time without an offer
+ - Get user transactions looks at intervals for which each offer is valid, also transactions made during to offer period
+ - Establish baseline transaction rate and baseline average value this way
+ 
+ - Did not look at offer opened (not relevant to metric of "Behavioral change given an offer")
+ - Channels (not separable at all -- alsmot all have at least 3 channels)
+ 
+Findings
+ - Heuristics
+ (describe most important)
+ - Regression learning
+
+Metrics
+ - R^2
+ - MSE
+ 
+ Model improvement
+ - Data scaling
+ - Data normalizing
+ - Backwards cleaning (imputed vs removed)
+ 
+Conclusions
+
+Imrpovement
+ - Imrpovement in model:
+    - Reconsider cases where user did not open an offer?
+    - Consider channels more closely
+ - Improvement in experiment:
+   - Vary one thing at a time
+   - Contunuous range of rewards and difficulty in order to establish thresholds better
+   - Make channels separable
+   
+    
+ 
+  
+  
 
 
 
