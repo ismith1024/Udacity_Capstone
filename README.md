@@ -21,26 +21,6 @@ The following libraries were used for the primary analysis, and are standard in 
  - sklearn
  - pickle
 
-I evaluated the following libraries, but did not use them in the final deliverable.  They would be required to run the informational section:
- - tensorflow
- - tensorflow_probability
-
-Tensorflow is cited as follows:
-
-Martin Abadi, et. al. 
-TensorFlow: Large-scale machine learning on heterogeneous systems,
-2015. Software available from tensorflow.org.
-
-The full author list is here:
-https://chromium.googlesource.com/external/github.com/tensorflow/tensorflow/+/0.6.0/tensorflow/g3doc/resources/bib.md
-
-Tensorflow Probability is cited as:
-
-TensorFlow Distributions. Joshua V. Dillon, Ian Langmore, Dustin Tran, Eugene Brevdo, Srinivas Vasudevan, Dave Moore, Brian Patton, Alex Alemi, Matt Hoffman, Rif A. Saurous. arXiv preprint arXiv:1711.10604, 2017.
-
-It is apache licensed by The TensorFlow Probability Authors; the license text is here:
-https://github.com/tensorflow/probability/blob/master/LICENSE
-
 ## Project Description<a name="motivation"></a>
 
 The objective of this project is to use the transaction log to describe and predict customer behavior, and determine if a measurable
@@ -57,7 +37,7 @@ These values are investigated using aggregate statistics for each demographic se
 
 ## Files <a name="files"></a>
 
-The analysis and summary explanation can be found in the Jupyter Notebook "Starbucks_Capstone_alternate.ipynb".  Exploratory code is contained in the notebooks "Starbucks_Capstone_notebook.ipynb" and "Capstone_Scrap.ipynb", which are not critical to the project.  Exploratory code may not be complete or remain functional.  It is included for archival and informational purposes and is not intended to be evaluated against project rubric with respect to proper software engineering principles or functionality.
+The analysis and summary explanation can be found in the Jupyter Notebook "Starbucks_Capstone_Challenge.ipynb".  Exploratory code is contained in the notebook "Starbucks_Capstone_preliminary.ipynb", which is not critical to the project.  Exploratory code may not be complete or remain functional.  It is included for archival and informational purposes and is not intended to be evaluated against project rubric with respect to proper software engineering principles or functionality.
 
 The relevant datasets are "portfolio.json", "profile.json", and "transcript.json", and originate from Starbucks by way of Udacity.
 
@@ -98,13 +78,13 @@ Discount and info offers had a similar trend for membership period.
 
 3. Creating a regression model
 I evaluated a linear model using the one-hot encoded gender, age, income, and member_for values.  R^2 values were low.
-By scaling and normalizing the data, I was able to increase the R^2 to approximately 0.2 for transaction rate and 0.1 for average value.
+By scaling and normalizing the data, I was able to increase the R^2 to approximately 0.24 for transaction rate and 0.1 for average value.
 I added the information on reward and challenge values, with a resulting minor increase in R^2.
 
 Adding the channels did not result in a material impact to performance.
 
 A summary of the findings is published here:
-TBD: https://ismith1024.github.io/#####/.
+https://ismith1024.github.io/Starbucks_Capstone/
 
 
 
